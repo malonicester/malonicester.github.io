@@ -26,13 +26,12 @@
 
           <li><a class="nav-link contact" href="#contact">Contact</a></li>
           <li>
-            <button id="resume-button-1" class="nav-link resume btn btn2">
-              <a
-                id="resume-link-1"
-                target="_blank"
-                href="./docs/assets/img/Ashish_Tripathy_Resume.pdf"
-                >Resume</a
-              >
+            <button
+              onclick="resume()"
+              id="resume-button-1"
+              class="nav-link resume btn btn2"
+            >
+              Resume
             </button>
           </li>
           <i onclick="closeMenu()" class="fa-solid fa-xmark"></i>
@@ -48,13 +47,8 @@
             Hi,I'm <span>Ashish</span><br />
             Tripathy From India
           </h1>
-          <button id="resume-button-2" class="btn btn2">
-            <a
-              id="resume-link-2"
-              target="_blank"
-              href="./docs/assets/img/Ashish_Tripathy_Resume.pdf"
-              >Resume</a
-            >
+          <button onclick="resume()" id="resume-button-2" class="btn btn2">
+            Resume
           </button>
         </div>
       </div>
@@ -347,6 +341,9 @@
       </div>
     </div>
     <script>
+      function resume() {
+        window.open("./docs/assets/img/Ashish_Tripathy_Resume.pdf", "_blank");
+      }
       let sidemenu = document.getElementById("sidemenu");
       function openMenu() {
         sidemenu.style.right = 0;
