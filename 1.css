@@ -8,13 +8,13 @@
 html {
   scroll-behavior: smooth;
 }
-.nav-wrapper{
+.nav-wrapper {
   position: sticky;
   top: 0;
   background-color: #111010;
-  padding:10px  10%;
+  padding: 10px 10%;
   z-index: 1;
-  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2)
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -23,6 +23,11 @@ body {
 }
 #resume,
 #resume:visited {
+  text-decoration: none;
+  color: white;
+}
+#resume-button-2,
+#resume-button-2:visited {
   text-decoration: none;
   color: white;
 }
@@ -250,17 +255,17 @@ form textarea {
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
 }
-.skill-card img {
+.skills-card img {
   width: 50%;
   transition: transform 0.2s;
 }
-.skill-card {
+.skills-card {
   text-align: center;
 }
-.skill-card img:hover{
+.skills-card img:hover {
   transform: scale(1.2);
 }
-.skill-card h2 {
+.skills-card h2 {
   font-weight: 400;
 }
 /* CSS for Responsiveness */
@@ -316,10 +321,9 @@ nav .fa-solid {
   .work-list {
     grid-template-columns: 1fr;
   }
-
 }
 
-@media only screen and (min-width:380px) and (max-width: 499px) {
+@media only screen and (min-width: 380px) and (max-width: 499px) {
   nav .fa-solid {
     display: block;
     font-size: 25px;
@@ -376,18 +380,18 @@ nav .fa-solid {
   .layer {
     width: 100%;
     padding: 0;
-    font-size: 10px
+    font-size: 10px;
   }
   .layer > .deploy > a {
     font-size: 10px;
     width: 40px;
     height: 20px;
   }
-  .skill-wrapper{
-    grid-template-columns: repeat(2,1fr);
+  .skill-wrapper {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-@media only screen and (min-width:500px) and (max-width: 600px) {
+@media only screen and (min-width: 500px) and (max-width: 600px) {
   nav .fa-solid {
     display: block;
     font-size: 25px;
@@ -450,7 +454,7 @@ nav .fa-solid {
     width: 40px;
     height: 20px;
   }
-  .skill-wrapper{
-    grid-template-columns: repeat(3,1fr);
+  .skill-wrapper {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
