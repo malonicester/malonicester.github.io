@@ -15,16 +15,24 @@
     />
   </head>
   <body>
-    <div  class="nav-wrapper">
+    <div class="nav-wrapper">
       <nav id="nav-menu">
         <h2><a id="logo" href=""> < Ashish /></a></h2>
         <ul id="sidemenu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Project</a></li>
-          <li><a href="#resume-d">Resume</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a class="nav-link home" href="#">Home</a></li>
+          <li><a class="nav-link about" href="#">About Me</a></li>
+          <li><a class="nav-link skills" href="#skills">Skills</a></li>
+          <li><a class="nav-link projects" href="#projects">Project</a></li>
+          <li>
+            <a
+              id="resume-button-1"
+              class="nav-link resume"
+              target="_blank"
+              href="./docs/assets/img/Ashish_Tripathy_Resume.pdf"
+              >Resume</a
+            >
+          </li>
+          <li><a class="nav-link contact" href="#contact">Contact</a></li>
           <i onclick="closeMenu()" class="fa-solid fa-xmark"></i>
         </ul>
         <i onclick="openMenu()" class="fa-solid fa-bars"></i>
@@ -46,14 +54,14 @@
           <i onclick="openMenu()" class="fa-solid fa-bars"></i>
         </nav> -->
         <div id="resume-d" class="header-text">
-          <p  id="user-detail-intro">Java Developer</p>
+          <p id="user-detail-intro">Java Developer</p>
           <h1 id="user-detail-name">
             Hi,I'm <span>Ashish</span><br />
             Tripathy From India
           </h1>
           <button class="btn btn2">
             <a
-              id="resume"
+              id="resume-button-2"
               target="_blank"
               href="./docs/assets/img/Ashish_Tripathy_Resume.pdf"
               >Resume</a
@@ -66,7 +74,11 @@
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img class="home-img" src="./docs/assets/img/Asish-modified.png" alt="" />
+            <img
+              class="home-img"
+              src="./docs/assets/img/Asish-modified.png"
+              alt=""
+            />
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
@@ -110,24 +122,44 @@
             <h2>Hibernate</h2>
           </div>
           <div class="skill-card">
-            <img src="./docs/assets/img/javascript-39404.png" alt="" />
+            <img
+              class="skills-card-img"
+              src="./docs/assets/img/javascript-39404.png"
+              alt=""
+            />
             <h2>Javascript</h2>
           </div>
           <div class="skill-card">
-            <img src="./docs/assets/img/html.png" alt="" />
-            <h2>HTML</h2>
+            <img
+              class="skills-card-img"
+              src="./docs/assets/img/html.png"
+              alt=""
+            />
+            <h2 class="skills-card-name">HTML</h2>
           </div>
           <div class="skill-card">
-            <img src="./docs/assets/img/css.png" alt="" />
-            <h2>CSS</h2>
+            <img
+              class="skills-card-img"
+              src="./docs/assets/img/css.png"
+              alt=""
+            />
+            <h2 class="skills-card-name">CSS</h2>
           </div>
           <div class="skill-card">
-            <img src="./docs/assets/img/GitHub-Mark.png" alt="" />
-            <h2>GitHub</h2>
+            <img
+              class="skills-card-img"
+              src="./docs/assets/img/GitHub-Mark.png"
+              alt=""
+            />
+            <h2 class="skills-card-name">GitHub</h2>
           </div>
           <div class="skill-card">
-            <img src="./docs/assets/img/github.png" alt="" />
-            <h2>Git</h2>
+            <img
+              class="skills-card-img"
+              src="./docs/assets/img/github.png"
+              alt=""
+            />
+            <h2 class="skills-card-name">Git</h2>
           </div>
         </div>
       </div>
@@ -217,18 +249,22 @@
         <div class="row">
           <div class="contact-left">
             <h1 class="sub-title">Contact</h1>
-            <p  id="contact-email">
+            <p id="contact-email">
               <i class="fa-solid fa-envelope"></i>ashish.tripathy39@gmail.com
             </p>
-            <p  id="contact-phone" ><i class="fa-solid fa-phone"></i>+91 7008064317</p>
+            <p id="contact-phone">
+              <i class="fa-solid fa-phone"></i>+91 7008064317
+            </p>
             <div class="social-icons">
-              <a  id="contact-linkedin" href="https://www.linkedin.com/in/ashish-tripathy-26150a239/"
+              <a
+                id="contact-linkedin"
+                href="https://www.linkedin.com/in/ashish-tripathy-26150a239/"
                 ><i class="fa-brands fa-linkedin"></i
               ></a>
-              <a  id="contact-github" href="https://github.com/ashishtripathy39"
+              <a id="contact-github" href="https://github.com/ashishtripathy39"
                 ><i class="fa-brands fa-github"></i
               ></a>
-              <a  href="https://twitter.com/malonic_ester"
+              <a href="https://twitter.com/malonic_ester"
                 ><i class="fa-brands fa-twitter"></i
               ></a>
             </div>
