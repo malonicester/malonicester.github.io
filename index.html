@@ -178,15 +178,14 @@
       <p>
         <img
           id="github-top-langs"
-          align="left"
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashishtripathy39"
           alt="ashishtripathy39"
         />
       </p>
+      <!-- <br> -->
       <p>
         &nbsp;<img
           id="github-stats-card"
-          align="center"
           src="https://github-readme-stats.vercel.app/api?username=ashishtripathy39"
           alt="ashishtripathy39"
         />
@@ -194,12 +193,10 @@
       <p>
         <img
           id="github-streak-stats"
-          align="center"
           src="https://github-readme-streak-stats.herokuapp.com?user=ashishtripathy39"
           alt="ashishtripathy39"
         />
       </p>
-
       <div class="github-content-wrapper">
         <div class="calendar react-activity-calendar">
           Loading stuff Loading the data just for you.
@@ -401,7 +398,9 @@
             return fetch(`https://your-proxy.com/github?user=${username}`);
           },
         }
-      ).then((r) => r.text()).catch(e=>console.log(e));
+      )
+        .then((r) => r.text())
+        .catch((e) => console.log(e));
     </script>
   </body>
 </html>
