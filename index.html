@@ -27,11 +27,11 @@
           <li><a class="nav-link home" href="#home">Home</a></li>
           <li><a class="nav-link about" href="#about">About Me</a></li>
           <li><a class="nav-link skills" href="#skills">Skills</a></li>
-          <li><a class="nav-link projects" href="#projects">Project</a></li>
+          <li><a class="nav-link projects" onclick="mover()" href="#projects">Project</a></li>
 
           <li><a class="nav-link contact" href="#contact">Contact</a></li>
           <li>
-            <a href="./docs/assets/img/Ashish_Tripathy_Resume.pdf">
+            <a href="./docs/assets/img/Ashish_Tripathy_Resume.pdf" download="">
               <button
                 id="resume-button-1"
                 class="nav-link resume btn btn2"
@@ -380,6 +380,10 @@
     <script>
       function resume() {
         window.open("./docs/assets/img/Ashish_Tripathy_Resume.pdf", "_blank");
+      }
+      function mover(){
+        document.getElementById("projects").scrollIntoView({behavior: 'smooth'});
+        // window.location.hash = "Projects";
       }
       function resume2() {
         window.open("./docs/assets/img/Ashish_Tripathy_Resume.pdf");
