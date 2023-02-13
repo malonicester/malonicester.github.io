@@ -112,7 +112,7 @@ nav ul li a:hover::after {
   font-weight: 600;
 }
 #projects {
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 /* Portfolio */
 
@@ -120,9 +120,9 @@ nav ul li a:hover::after {
 }
 .work-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   grid-row: 200px;
 }
 .work img {
