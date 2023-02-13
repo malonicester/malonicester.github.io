@@ -120,13 +120,13 @@ nav ul li a:hover::after {
 }
 .work-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   margin-top: 50px;
   grid-row: 200px;
 }
 .work img {
-  width: 77%;
+  width: 100%;
   display: block;
   transition: transform 0.5s;
 }
