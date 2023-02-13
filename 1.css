@@ -291,6 +291,9 @@ nav .fa-solid {
   color: white;
 }
 @media only screen and (min-width: 601px) and (max-width: 840px) {
+  .nav-wrapper{
+    padding: 15px 4%;
+  }
   nav .fa-solid {
     display: block;
     font-size: 25px;
@@ -333,6 +336,9 @@ nav .fa-solid {
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 700px) {
+  .nav-wrapper{
+    padding: 15px 4%;
+  }
   /* nav .fa-solid {
     display: block;
     font-size: 25px;
@@ -384,6 +390,9 @@ nav .fa-solid {
 }
 
 @media only screen and (min-width: 350px) and (max-width: 499px) {
+  .nav-wrapper{
+    padding: 15px 4%;
+  }
   nav .fa-solid {
     display: block;
     font-size: 25px;
