@@ -126,7 +126,7 @@ nav ul li a:hover::after {
   grid-row: 200px;
 }
 .work img {
-  width: 100%;
+  width: 77%;
   display: block;
   transition: transform 0.5s;
 }
