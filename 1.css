@@ -9,8 +9,9 @@ html {
   scroll-behavior: smooth;
 }
 .nav-wrapper {
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   background-color: #111010;
   padding: 0px 12%;
   z-index: 1;
@@ -111,10 +112,10 @@ nav ul li a:hover::after {
   font-size: 60px;
   font-weight: 600;
 }
-/* proj#ects {
-  width: 50%;
-  margin: auto;
-} */
+ #projects {
+    padding-top: 50px;
+
+} 
 /* Portfolio */
 
 #portfolio {
@@ -182,10 +183,10 @@ nav ul li a:hover::after {
   height: 100%;
 }
 /* Contact */
-/* #contact{
-  width: 50%;
-  ma
-} */
+#contact{
+  padding-top: 60px;
+
+}
 .contact-left {
   flex-basis: 35%;
 }
@@ -253,6 +254,7 @@ form textarea {
 }
 /* Skill */
 #skills {
+  padding-top: 50px;
   width: 100%;
 }
 
