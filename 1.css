@@ -13,7 +13,7 @@ html {
   top: 0;
   width: 100%;
   background-color: #111010;
-  padding: 0px 12%;
+  padding: 0px 4%;
   z-index: 1;
   /* margin-bottom: 20px; */
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
@@ -113,8 +113,7 @@ nav ul li a:hover::after {
   font-weight: 600;
 }
  #projects {
-    padding-top: 50px;
-
+  padding-top: 60px;
 } 
 /* Portfolio */
 
@@ -184,8 +183,7 @@ nav ul li a:hover::after {
 }
 /* Contact */
 #contact{
-  padding-top: 60px;
-
+ padding-top: 60px;
 }
 .contact-left {
   flex-basis: 35%;
@@ -286,6 +284,7 @@ nav .fa-solid {
 /* Code for GithUB section */
 .github-content {
   margin-top: 30px;
+  padding-bottom: 40px;
 }
 /* .calendar.react-activity-calendar {
   width: 80%;
