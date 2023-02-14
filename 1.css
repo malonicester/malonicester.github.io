@@ -9,16 +9,28 @@ html {
   scroll-behavior: smooth;
 }
 .nav-wrapper {
-  position: sticky;
-  top: 0;
+  /* position: sticky; */
+  /* top: 0; */
   background-color: #111010;
   /* padding-left: 10px; */
   padding: 0px 4%;
   z-index: 1;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
 }
-
+/* Sticky */
+.sticky .nav-wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.sticky #projects{
+  margin-top: 80px;
+}
+.sticky #contact{
+  margin-top: 80px;
+}
 body {
   background: #080808;
   color: white;
