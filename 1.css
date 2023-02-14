@@ -9,8 +9,8 @@ html {
   scroll-behavior: smooth;
 }
 .nav-wrapper {
-  /* position: sticky; */
-  /* top: 0; */
+  position: sticky;
+  top: 0;
   background-color: #111010;
   /* padding-left: 10px; */
   padding: 0px 4%;
@@ -19,18 +19,7 @@ html {
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
 }
 /* Sticky */
-.sticky .nav-wrapper{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-.sticky #projects{
-  margin-top: 80px;
-}
-.sticky #contact{
-  margin-top: 80px;
-}
+
 body {
   background: #080808;
   color: white;
@@ -124,7 +113,8 @@ nav ul li a:hover::after {
   font-weight: 600;
 }
 #projects {
-  /* margin-top: 30px; */
+  width: 50%;
+  margin: auto;
 }
 /* Portfolio */
 
@@ -303,7 +293,7 @@ nav .fa-solid {
   color: white;
 }
 @media only screen and (min-width: 601px) and (max-width: 840px) {
-  .nav-wrapper{
+  .nav-wrapper {
     padding: 15px 4%;
   }
   nav .fa-solid {
@@ -348,7 +338,7 @@ nav .fa-solid {
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 700px) {
-  .nav-wrapper{
+  .nav-wrapper {
     padding: 15px 4%;
   }
   /* nav .fa-solid {
@@ -402,7 +392,7 @@ nav .fa-solid {
 }
 
 @media only screen and (min-width: 350px) and (max-width: 499px) {
-  .nav-wrapper{
+  .nav-wrapper {
     padding: 15px 4%;
   }
   nav .fa-solid {
