@@ -183,6 +183,10 @@ nav ul li a:hover::after {
   height: 100%;
 }
 /* Contact */
+#contact{
+  width: 50%;
+  margin: auto;
+}
 .contact-left {
   flex-basis: 35%;
 }
