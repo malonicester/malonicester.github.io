@@ -115,6 +115,10 @@ nav ul li a:hover::after {
  #projects {
   padding-top: 60px;
 } 
+.project-tech-stack{
+  margin: 4px;
+  font-weight: 600;
+}
 /* Portfolio */
 
 #portfolio {
