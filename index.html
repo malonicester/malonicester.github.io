@@ -31,11 +31,13 @@
 
           <li><a class="nav-link contact" href="#contact">Contact</a></li>
           <li>
-            <a href="./docs/assets/img/Ashish_Tripathy_Resume.pdf">
-              <button id="resume-button-1" class="nav-link resume btn btn2">
-                Resume
+            <li>
+              <!-- <a id="resume-link-1" class="nav-link resume" target="_blank" download="resume"  href="./docs/assets/img/Ashish_Tripathy_Resume.pdf">Resume</a> -->
+              <button id="resume-button-1" onclick="resume()" class="nav-link resume btn btn2">
+                <a id="resume-link-1" download="ashish" href="./docs/assets/img/Ashish_Tripathy_Resume.pdf" target="_blank" >Resume</a>
               </button>
             </a>
+          </li>
           </li>
           <i onclick="closeMenu()" class="fa-solid fa-xmark"></i>
         </ul>
@@ -50,8 +52,15 @@
             Hi,I'm <span>Ashish</span><br />
             Tripathy From India
           </h1>
-          <button onclick="resume2()" id="resume-button-2" class="btn btn2">
-            Resume
+          <button id="resume-button-2" onclick="resume2()" class="nav-link resume btn btn2">
+            <a
+              id="resume-link-2"
+              href="./docs/assets/img/Ashish_Tripathy_Resume.pdf"
+              target="_blank"
+              download="ashishresume"
+              style="color: white;border: none;"
+              >Resume</a
+            >
           </button>
         </div>
       </div>
@@ -391,7 +400,7 @@
         // window.location.hash = "Projects";
       }
       function resume2() {
-        window.open("./docs/assets/img/Ashish_Tripathy_Resume.pdf");
+        window.open("./docs/assets/img/Ashish_Tripathy_Resume.pdf","_blank");
       }
       let sidemenu = document.getElementById("sidemenu");
       function openMenu() {
