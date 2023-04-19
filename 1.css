@@ -226,6 +226,9 @@ nav ul li a:hover::after {
   border-radius: 10px;
   cursor: pointer;
 }
+#resume-link-2{
+  text-decoration: none;
+}
 .contact-right {
   width: 100%;
 }
@@ -290,13 +293,16 @@ nav .fa-solid {
   margin-top: 30px;
   padding-bottom: 40px;
 }
+
+.github-content.container img{
+  width: 45%;
+  margin-left: 30%;
+  margin-bottom: 20px;
+}
 /* .calendar.react-activity-calendar {
   width: 80%;
 }*/
-.github-content img {
-  /* display: block; */
-  margin-bottom: 20px;
-}
+
 .calendar.react-activity-calendar .contrib-column.table-column span {
   color: white;
 }
@@ -470,8 +476,9 @@ nav .fa-solid {
   .skill-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
-  .github-content img {
+  .github-content.container img{
     width: 100%;
+    margin: auto;
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 600px) {
