@@ -4,13 +4,14 @@
     gap: 10px;
     line-height: 1.4;
   }
-  .projects-card {
+  .project-card {
     background-color: rgb(32, 30, 30);
     border-radius: 2%;
     color: white;
     padding: 20px;
+    box-shadow: 0 8px 6px -6px black;
   }
-  .projects-card > p {
+  .project-card > p {
       margin: 10px 0;
   }
   .projects img {
